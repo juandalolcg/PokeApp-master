@@ -1,0 +1,58 @@
+@import "../../../assets/styles/variables.scss";
+
+.card {
+  margin: auto;
+  margin-top: 20px;
+  -webkit-box-shadow: 22px 36px 21px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 22px 36px 21px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 22px 36px 21px -22px rgba(0, 0, 0, 0.75);
+}
+
+.header-image {
+  background-size: cover;
+}
+
+.mat-card-header {
+  background-color: $white;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.mat-card-title {
+  text-transform: uppercase;
+  color: $black;
+}
+
+.mat-card-subtitle {
+  color: $black;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+label {
+  font-weight: bold;
+}
+
+.tag-pkm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.tag-pkm h2 {
+  padding: 3px 16px;
+  border: 1px solid #eee;
+  background: #eee;
+  color: #2c3038;
+  display: block;
+  margin: 0 4px 6px 0px;
+  border-radius: 40px;
+  font-size: 0.86rem;
+  user-select: none;
+}
